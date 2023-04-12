@@ -1,0 +1,26 @@
+{
+  "name": "projeto-cidade",
+  "version": "1.0.0",
+  "description": "Projeto open-source de uma aplicação de monitoramento de problemas que ocorrem nas cidades (buracos, vazamentos d'água, etc)",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx ts-node-dev src/shared/http/server.ts --watch",
+    "build": "npx tsc"
+  },
+  "repository": "https://github.com/gabriel-scarano/projeto-cidade",
+  "author": "Gabriel Scarano de Oliveira",
+  "license": "GNU",
+  "devDependencies": {
+    "@prisma/client": "^4.12.0",
+    "@types/cors": "^2.8.13",
+    "@types/express": "^4.17.17",
+    "prisma": "^4.12.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  }
+}
